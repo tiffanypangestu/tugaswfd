@@ -10,5 +10,6 @@ class Facility extends Model
         'nama',
         'foto',
         'keterangan',
+        'url',
     ];
 }

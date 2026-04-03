@@ -13,9 +13,10 @@ return new class extends Migration
     {
         Schema::create('facilities', function (Blueprint $table) {
             $table->id();
-            $table->string('nama');        // nama fasilitas
-            $table->string('foto');        // nama file gambar
-            $table->text('keterangan');    // deskripsi fasilitas
+            $table->string('nama');
+            $table->string('foto');
+            $table->text('keterangan');
+            $table->string('url');
             $table->timestamps();
         });
     }
